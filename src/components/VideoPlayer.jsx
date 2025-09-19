@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import { Grid, Typography, Paper, makeStyles } from '@material-ui/core';
-
+import { Grid, Typography, Paper } from '@mui/material';
+import { styled } from '@mui/material/styles';
 import { SocketContext } from '../Context';
 
 const useStyles = makeStyles((theme) => ({
