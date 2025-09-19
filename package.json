@@ -4,8 +4,9 @@
 	"private": true,
 	"proxy": "https://warm-wildwood-81069.herokuapp.com",
 	"dependencies": {
-		"@material-ui/core": "^4.11.3",
-		"@material-ui/icons": "^4.11.2",
+		"@mui/icons-material": "^7.3.2",
+		"@mui/material": "^7.3.2",
+		"@mui/system": "^7.3.2",
 		"@testing-library/jest-dom": "^5.11.4",
 		"@testing-library/react": "^11.1.0",
 		"@testing-library/user-event": "^12.1.10",
@@ -47,12 +48,19 @@
 		]
 	},
 	"devDependencies": {
-		"eslint": "^7.22.0",
+		"@babel/eslint-parser": "^7.28.4",
+		"@babel/plugin-transform-class-properties": "^7.27.1",
+		"@babel/plugin-transform-nullish-coalescing-operator": "^7.27.1",
+		"@babel/plugin-transform-numeric-separator": "^7.27.1",
+		"@babel/plugin-transform-optional-chaining": "^7.27.1",
+		"@babel/plugin-transform-private-methods": "^7.27.1",
+		"@babel/plugin-transform-private-property-in-object": "^7.27.1",
+		"eslint": "^7.32.0",
 		"eslint-config-airbnb": "^18.2.1",
 		"eslint-plugin-import": "^2.22.1",
 		"eslint-plugin-jsx-a11y": "^6.4.1",
-		"eslint-plugin-react": "^7.22.0",
-		"eslint-plugin-react-hooks": "^4.2.0",
+		"eslint-plugin-react": "^7.37.5",
+		"eslint-plugin-react-hooks": "^4.6.2",
 		"react-app-rewired": "^2.2.1"
 	}
 }
